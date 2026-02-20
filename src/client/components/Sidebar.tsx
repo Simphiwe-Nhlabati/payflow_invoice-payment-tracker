@@ -101,6 +101,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                     key={item.name}
                     to={item.path}
                     onClick={onClose}
+                    style={{ display: "block", width: "100%", textDecoration: "none" }}
                   >
                     <HStack
                       px="3"
